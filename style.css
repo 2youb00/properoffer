@@ -298,3 +298,81 @@ align-self: center;
 margin-bottom: 5rem;
 margin-left: 3rem;
 }
+/*-----------------------property 2 number----------------/*/
+.property2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+.number-title{
+    margin: 2rem 0 5rem;
+    text-align: center;
+    font-size: 32px;
+}
+.number{
+    width: 930px;
+    height: 280px;
+    border-radius: 30px;
+    background-color: #4abfc6; padding:40px;
+    grid-template-columns: 1.6fr 1fr;
+}
+.number-details h1 ,.number-details p{
+    margin-left: 2rem;
+    margin-bottom: 0rem;
+    color: #fff;
+}
+.number-details button{
+    padding: 10px 35px;
+    border: none;
+    border-radius: 5px;
+    background-color: #5b7999;
+    color: #fff;
+    font-size: 20px;
+    margin: 1rem 0;
+    margin-left: 2rem;
+}
+.number-2{
+    align-self: self-start;
+    justify-self: start;
+}
+.number-2 p{
+color: #fff;
+font-size: 16px;
+font-weight: 700;
+}
+.number-2 h2{
+    color: #fff;
+    font-size: 32px;
+    margin-top: 3rem;
+    letter-spacing: 3px;
+    font-weight: 500;
+}
+/*-------------------------footer-------------------/*/
+.footer{
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 3rem;
+}
+.footer-container{
+    width: 80vw;
+}
+.footer-title{
+font-size: 14px;
+margin: 1rem 0;
+}
+.footer-description ,.footer-email{
+    font-size: 14px;
+    margin: 1rem 0;
+    color: rgba(0, 0, 0, 0.5);
+}
+.footer-img{
+    width: 100%;   
+     text-align: center;
+     margin: 3rem 0;
+}
+.footer-img img {
+    width: 50px;
+}
