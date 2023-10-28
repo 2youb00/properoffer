@@ -4,6 +4,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+.displaynone{
+    display: none;
+}
 body {
     font-family: 'Roboto', sans-serif;
     overflow-x: hidden;
@@ -349,6 +352,50 @@ font-weight: 700;
     letter-spacing: 3px;
     font-weight: 500;
 }
+/*--------------------property2 faq----------------/*/
+.faq{
+    margin: -4rem 0 2rem;
+}
+.faqbars{
+    width: 750px;
+    margin: 1rem 0;
+    padding: 1rem 3rem 1rem 1.2rem;
+    background-color: #fff;
+    border: 0.5px solid rgba(128, 128, 128, 0.5);
+    cursor: pointer;
+    border-radius: 10px;
+}
+.title-down-up{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.faqbars .title-down-up h3{
+    font-size: 18px;
+    font-weight: 500;
+    color: #111837;
+}
+.title-down-up i{
+    margin-right: -2rem;
+    color: #111837;
+}
+.faqbars p{
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.6);
+    margin-top: 0.3rem;
+    position: relative;
+    animation: faqp 0.3s 1;
+}
+@keyframes faqp {
+    0%{
+        top: -8px;
+        left: -8px;
+    }
+    100%{
+        top: 0;
+        left: 0;
+    }
+}
 /*-------------------------footer-------------------/*/
 .footer{
 display: flex;
@@ -375,4 +422,217 @@ margin: 1rem 0;
 }
 .footer-img img {
     width: 50px;
+}
+/*-----------------in phone-----------------/*/
+
+
+/*-----------------in phone-----------------/*/
+
+
+/*-----------------in phone-----------------/*/
+
+
+/*-----------------in phone-----------------/*/
+
+
+/*-----------------in phone-----------------/*/
+
+@media screen and (max-width:450px){
+    /*------------------------hedier------------------/*/
+    header{
+        height: 100px;
+    }
+    .header{
+        flex-direction: column;
+    }
+    .header-logo img{
+        margin-top: 1rem;
+        margin-left: 8rem;
+        width: 20vh;
+        cursor: pointer;
+    }
+    .header-button {
+        justify-content: center;
+        margin-bottom: auto;
+    }
+    .header-button button{
+        margin-right: -6rem;
+        width: 170px;
+    }
+    /*-----------------------about----------------/*/
+
+.about-details h1{
+    font-size: 25px;
+}
+.about-details .about-logos img{
+width: 100px;
+}
+.about-details .about-logos h2{
+font-size: 20px;
+}
+.about-cards{
+    flex-direction: column;
+}
+.about-card{
+    margin: auto;
+    margin-bottom: 5rem;
+}
+.about-card:nth-child(2){
+    margin-left: auto;
+    margin-right: auto;
+}
+/*------------------about end-------------------------/*/
+/*-----------------key4000+-------------------/*/
+.key{
+    grid-template-columns: repeat(1,1fr);
+    padding: 10px 30px 60px;
+}
+.k400 h1{
+font-size: 150px;
+}
+.k400 h2{
+    font-size: 25px;
+
+}
+.k400 p{
+    font-size: 15px;
+   
+}
+.k400 button{
+font-size: 16px;
+}
+
+/*----------------------------ways/*----------------/*/
+.ways-2{
+grid-template-columns: repeat(1,1fr);
+height: 450px;
+width: 360px;
+padding: 20px 30px;
+margin-bottom: 2rem;
+}
+.ways-2-1 h1 , .ways-2-2 h1{
+font-size: 29px;
+margin-top: 1rem;
+}
+.ways-2-2{
+    margin-left: 0;
+    margin-bottom: 1rem;
+}
+.ways-2-1 div i , .ways-2-2 div i{
+    margin-right: 0.4rem;
+}
+.ways-2-1 div p ,.ways-2-2 div p{
+    margin-bottom:0.25rem ;
+}
+/*------------------------------property/*--------------------/*/
+.property{
+    height: 230px;
+    margin-bottom: 2rem;
+}
+.property-details{
+    margin-right: 0rem;
+    margin-left: 2rem;
+}
+.property-details h1{
+    font-size: 22px;
+    margin-bottom: 1rem;
+}
+.property-details p{
+    font-size: 14px;
+}
+.property button{
+font-size: 13px;
+margin-bottom: 2rem;
+margin-left: 1.5rem;
+}
+
+/*-----------------------property 2 number----------------/*/
+.number{
+    width:90vw;
+    height: 380px;
+    grid-template-columns:1fr;
+}
+.number-details h1 ,.number-details p{
+    margin-left: -2.5rem;
+    margin-bottom: 0.5rem;
+}
+.number-details button{
+    margin: 0.5rem 0 1rem;
+    margin-left:-2.5rem;
+}
+.number-2 h2{
+    margin-top: 2rem;
+}
+/*-----------------------------end-------number property2-------------/*/
+
+
+.home {
+    background: url(imgs/6281e1fe48d02e4a96d333d4.jpeg);
+    background-repeat: no-repeat;
+    background-attachment:fixed ;
+    background-size:cover;
+    background-position:0 ;
+    width: 100vw;
+    min-height: 98vh;
+    display: flex;
+    align-items: center;
+}
+
+.home-details{
+
+    width: 435px;
+    height: 100%;
+    margin-left: 8%;
+    color: #fff;
+    margin-top: 0rem;
+}
+.home-details h1{
+    margin-top: 10rem;
+}
+/*--------------------property2 faq----------------/*/
+.faq{
+    margin: -4rem 0 2rem;
+}
+.faqbars{
+    width: 346px;
+    margin: 1rem 0;
+    padding: 1rem 3rem 1rem 1.2rem;
+    background-color: #fff;
+    border: 0.5px solid rgba(128, 128, 128, 0.5);
+    cursor: pointer;
+    border-radius: 10px;
+}
+.title-down-up{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.faqbars .title-down-up h3{
+    font-size: 18px;
+    font-weight: 500;
+    color: #111837;
+}
+.title-down-up i{
+    margin-right: -2rem;
+    color: #111837;
+}
+.faqbars p{
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.6);
+    margin-top: 0.3rem;
+    position: relative;
+    animation: faqp 0.3s 1;
+}
+@keyframes faqp {
+    0%{
+        top: -8px;
+        left: -8px;
+    }
+    100%{
+        top: 0;
+        left: 0;
+    }
+}
+
+
 }
